@@ -60,7 +60,7 @@ function App() {
           <div className="hero-content">
             <div className="small-caps">WITH GOD'S GRACE & THE BLESSING OF OUR FAMILIES</div>
             <div className="cross-mark">✝</div>
-            <h1>Mercy <em>&</em> Isaac</h1>
+            <h1>Geetha <em>&</em> Ramachandran</h1>
             <p className="subtitle">Joyfully invite you to celebrate the beginning of their life together in Christ.</p>
             <blockquote>
               “Therefore what God has joined together,<br />
@@ -108,12 +108,12 @@ function App() {
 
         <section id="story" className="photo-story">
           <div className="story-image">
-            <img src={`${import.meta.env.BASE_URL}invitation-reference.jpg`} alt="Mercy and Isaac wedding invitation artwork" />
+            <img src={`${import.meta.env.BASE_URL}invitation-reference.jpg`} alt="Geetha and Ramachandran wedding invitation artwork" />
           </div>
           <div className="story-copy">
             <div className="small-caps">A NEW CHAPTER</div>
             <h2>Two lives, one promise.</h2>
-            <p>Surrounded by family, friends and faith, Mercy and Isaac begin their married life with hearts full of gratitude and hope.</p>
+            <p>Surrounded by family, friends and faith, Geetha and Ramachandran begin their married life with hearts full of gratitude and hope.</p>
             <FloralDivider />
             <p className="script">“Where there is love, there is a beautiful beginning.”</p>
           </div>
@@ -126,12 +126,12 @@ function App() {
             <div className="family-card">
               <span>Bride</span>
               <h3>M. Geetha Priyadarshini</h3>
-              <p>“Mercy”</p>
+              <p>“Geetha”</p>
             </div>
             <div className="family-card">
               <span>Groom</span>
               <h3>S. Ramachandran</h3>
-              <p>“Isaac”</p>
+              <p>“Ramachandran”</p>
             </div>
           </div>
         </section>
