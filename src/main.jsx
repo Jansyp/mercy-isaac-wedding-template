@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { CalendarDays, Clock3, MapPin, Navigation, Heart, Cross, ChevronDown } from "lucide-react";
 import "./styles.css";
@@ -108,7 +108,7 @@ function App() {
 
         <section id="story" className="photo-story">
           <div className="story-image">
-            <img src="/invitation-reference.jpg" alt="Mercy and Isaac wedding invitation artwork" />
+            <img src={`${import.meta.env.BASE_URL}invitation-reference.jpg`} alt="Mercy and Isaac wedding invitation artwork" />
           </div>
           <div className="story-copy">
             <div className="small-caps">A NEW CHAPTER</div>
