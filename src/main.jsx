@@ -108,12 +108,12 @@ function App() {
 
         <section id="story" className="photo-story">
           <div className="story-image">
-            <img src={`${import.meta.env.BASE_URL}invitation-reference.jpg`} alt="Geetha and Ramachandran wedding invitation artwork" />
+            <img src={`${import.meta.env.BASE_URL}invitation-reference.jpg`} alt="Geetha and Ram wedding invitation artwork" />
           </div>
           <div className="story-copy">
             <div className="small-caps">A NEW CHAPTER</div>
             <h2>Two lives, one promise.</h2>
-            <p>Surrounded by family, friends and faith, Geetha and Ramachandran begin their married life with hearts full of gratitude and hope.</p>
+            <p>Surrounded by family, friends and faith, Geetha and Ram begin their married life with hearts full of gratitude and hope.</p>
             <FloralDivider />
             <p className="script">“Where there is love, there is a beautiful beginning.”</p>
           </div>
@@ -140,14 +140,14 @@ function App() {
           <div className="ornament">✝</div>
           <h2>Thank you for<br/>being part of our story.</h2>
           <p>Your prayers, presence and blessings will make our wedding day even more special.</p>
-          <div className="signature">Geetha & Ramachandran</div>
+          <div className="signature">Geetha & Ram</div>
           <div className="small-caps">26 · 10 · 2026</div>
         </section>
       </main>
 
       <footer>
         <div className="footer-cross">✝</div>
-        <h3>Geetha & Ramachandran</h3>
+        <h3>Geetha & Ram</h3>
         <p>26 · 10 · 2026</p>
         <div className="footer-line"></div>
         <small>Made with love & gratitude</small>
