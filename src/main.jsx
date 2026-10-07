@@ -126,12 +126,12 @@ function App() {
             <div className="family-card">
               <span>Bride</span>
               <h3>M. Geetha Priyadarshini</h3>
-              <p>“Geetha”</p>
+              <p>“Mercy”</p>
             </div>
             <div className="family-card">
               <span>Groom</span>
               <h3>S. Ramachandran</h3>
-              <p>“Ramachandran”</p>
+              <p>“Isaac”</p>
             </div>
           </div>
         </section>
