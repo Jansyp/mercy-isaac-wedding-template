@@ -58,7 +58,7 @@ function App() {
         <section id="home" className="hero">
           <div className="hero-overlay"></div>
           <div className="hero-content">
-            <div className="small-caps">WITH GOD'S GRACE & THE BLESSING OF OUR PARENTS</div>
+            <div className="small-caps">WITH GOD'S GRACE & THE BLESSING OF OUR FAMILIES</div>
             <div className="cross-mark">✝</div>
             <h1>Geetha <em>&</em> Ram</h1>
             <p className="subtitle">Joyfully invite you to celebrate the beginning of their life together in Christ.</p>
