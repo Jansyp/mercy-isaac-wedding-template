@@ -120,7 +120,7 @@ function App() {
         </section>
 
         <section id="details" className="section family-section">
-          <div className="small-caps">WITH THE BLESSINGS OF OUR FAMILIES</div>
+          <div className="small-caps">WITH THE BLESSINGS OF OUR PARENTS</div>
           <h2>Our Families</h2>
           <div className="family-grid">
             <div className="family-card">
