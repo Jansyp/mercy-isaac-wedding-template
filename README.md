@@ -1,4 +1,4 @@
-# Geetha & Ramachandran Wedding Invitation
+# Geetha & Ram Wedding Invitation
 
 A mobile-first React/Vite wedding invitation website.
 
