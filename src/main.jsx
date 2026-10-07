@@ -140,14 +140,14 @@ function App() {
           <div className="ornament">✝</div>
           <h2>Thank you for<br/>being part of our story.</h2>
           <p>Your prayers, presence and blessings will make our wedding day even more special.</p>
-          <div className="signature">Mercy & Isaac</div>
+          <div className="signature">Geetha & Ramachandran</div>
           <div className="small-caps">26 · 10 · 2026</div>
         </section>
       </main>
 
       <footer>
         <div className="footer-cross">✝</div>
-        <h3>Mercy & Isaac</h3>
+        <h3>Geetha & Ramachandran</h3>
         <p>26 · 10 · 2026</p>
         <div className="footer-line"></div>
         <small>Made with love & gratitude</small>

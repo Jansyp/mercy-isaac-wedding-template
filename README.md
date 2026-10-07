@@ -1,4 +1,4 @@
-# Mercy & Isaac Wedding Invitation
+# Geetha & Ramachandran Wedding Invitation
 
 A mobile-first React/Vite wedding invitation website.
 
