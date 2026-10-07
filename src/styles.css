@@ -118,12 +118,6 @@ blockquote small { display:block; margin-top:8px; font-weight:700; }
 .thankyou p { color:#e8ddd1; }
 .signature { margin:30px 0 12px; color:#f2c878; font:48px "Great Vibes"; }
 
-footer { padding:65px 20px; text-align:center; background:#28171b; color:#f6e8d5; }
-footer h3 { margin:8px 0; font:600 32px "Cormorant Garamond"; }
-footer p { color:#d4b87f; }
-.footer-cross { color:#d4b87f; font-size:28px; }
-.footer-line { width:80px; height:1px; margin:20px auto; background:#80633a; }
-footer small { color:#aa9a90; }
 
 @media (max-width: 700px) {
   .nav { height:66px; padding:0 18px; }

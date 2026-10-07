@@ -144,14 +144,6 @@ function App() {
           <div className="small-caps">26 · 10 · 2026</div>
         </section>
       </main>
-
-      <footer>
-        <div className="footer-cross">✝</div>
-        <h3>Geetha & Ram</h3>
-        <p>26 · 10 · 2026</p>
-        <div className="footer-line"></div>
-        <small>Made with love & gratitude</small>
-      </footer>
     </div>
   );
 }
