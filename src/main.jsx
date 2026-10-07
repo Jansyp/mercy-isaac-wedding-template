@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="site">
       <header className="nav">
-        <a className="brand" href="#home">M & I <span>•</span> 26.10.2026</a>
+        <a className="brand" href="#home">G & R <span>•</span> 26.10.2026</a>
         <nav>
           <a href="#wedding">Wedding</a>
           <a href="#story">Our Story</a>
