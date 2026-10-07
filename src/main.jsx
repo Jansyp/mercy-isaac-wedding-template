@@ -60,7 +60,7 @@ function App() {
           <div className="hero-content">
             <div className="small-caps">WITH GOD'S GRACE & THE BLESSING OF OUR FAMILIES</div>
             <div className="cross-mark">✝</div>
-            <h1>Geetha <em>&</em> Ramachandran</h1>
+            <h1>Geetha <em>&</em> Ram</h1>
             <p className="subtitle">Joyfully invite you to celebrate the beginning of their life together in Christ.</p>
             <blockquote>
               “Therefore what God has joined together,<br />
