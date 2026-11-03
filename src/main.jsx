@@ -3,7 +3,6 @@ import { createPortal } from "react-dom";
 import { createRoot } from "react-dom/client";
 import { Cake, CalendarDays, Navigation, Gift, Sparkles } from "lucide-react";
 import invitationBackground from "./assets/vihaan-birthday-background.png";
-import eventBackground from "./assets/birthday-cake-panels.avif";
 import storyPhoto from "./assets/vihaan-story-photo.png";
 import "./styles.css";
 
@@ -338,7 +337,6 @@ function App() {
   return <>
   <div className="site" style={{
     "--invitation-photo": `url("${invitationBackground}")`,
-    "--event-photo": `url("${eventBackground}")`,
   }}>
     <main>
       <section id="home" className="hero">
