@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { createRoot } from "react-dom/client";
-import { Cake, Navigation, Gift, Sparkles } from "lucide-react";
+import { Cake, Navigation, Sparkles } from "lucide-react";
 import invitationBackground from "./assets/vihaan-birthday-background.png";
 import storyPhoto from "./assets/vihaan-story-photo.png";
 import "./styles.css";
@@ -17,19 +17,10 @@ const BIRTHDAY = {
     {
       label: "CAKE CUTTING",
       time: "7:00 PM",
-      venue: "Mcentral",
+      venue: "M Central",
       address: ["T. Nagar, Chennai"],
-      map: "https://www.google.com/maps/search/?api=1&query=Mcentral%2C%20T.%20Nagar%2C%20Chennai",
+      map: "https://www.google.com/maps/search/?api=1&query=M%20Central%2C%20T.%20Nagar%2C%20Chennai",
       icon: Cake,
-    },
-    {
-      label: "A SPECIAL EVENING",
-      dateLabel: "Sunday, 6 December 2026",
-      time: "7:00 PM",
-      description: "Celebrating one wonderful year of Vihaan Dev",
-      address: [],
-      map: "",
-      icon: Gift,
     },
   ],
 };

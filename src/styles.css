@@ -40,7 +40,7 @@ a { color: inherit; text-decoration: none; }
 .hero-content { position:relative; z-index:1; width:min(720px, 90%); text-align:center; padding:0; }
 .small-caps { color:#8b642c; font-size:12px; letter-spacing:4px; font-weight:600; text-shadow:0 1px 10px rgba(255,250,239,.78); }
 .details-section > .small-caps { color:#fff; font-weight:700; text-shadow:0 1px 5px rgba(59,24,32,.55); }
-.intro > .small-caps { font-weight:700; }
+.intro > .small-caps { color:#fff; font-weight:700; text-shadow:0 1px 5px rgba(59,24,32,.55); }
 .hero-content > .small-caps { width:fit-content; max-width:100%; margin:0 auto; padding:6px 12px; border:0; border-radius:999px; background:transparent; box-shadow:none; color:#fff; font-weight:700; text-shadow:0 1px 5px rgba(59,24,32,.55); }
 .sparkle-mark, .ornament { color:var(--gold); font-size:38px; margin:18px 0 8px; }
 .sparkle-mark { animation: twinkle 3s ease-in-out infinite; }
@@ -156,7 +156,7 @@ blockquote {
 
 .details-section { background:linear-gradient(180deg, rgba(255,249,237,.12), rgba(255,249,237,.04)); }
 .details-section h2 { max-width:900px; }
-.event-grid { width:min(1000px,100%); margin:45px auto 0; display:grid; grid-template-columns:repeat(2,1fr); gap:22px; }
+.event-grid { width:min(1000px,100%); margin:45px auto 0; display:grid; grid-template-columns:minmax(0,610px); justify-content:center; gap:22px; }
 .event-card {
   position:relative; isolation:isolate; overflow:hidden;
   background:rgba(35,25,25,.4);
@@ -213,7 +213,7 @@ blockquote {
   .count-box { padding:16px 5px; border-radius:14px; }
   .count-box strong { font-size:30px; }
   .count-box span { font-size:8px; letter-spacing:1px; }
-  .event-card { padding:32px 20px; background-position:center 42%; }
+  .event-card { padding:32px 20px; }
 }
 
 @media (max-width: 380px) {
