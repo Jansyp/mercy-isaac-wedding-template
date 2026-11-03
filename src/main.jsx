@@ -167,7 +167,7 @@ function ScratchCard({ onReveal }) {
         if (pixels[(y * canvas.width + x) * 4 + 3] < 32) cleared += 1;
       }
     }
-    if (cleared / sampled >= 0.7) reveal();
+    if (sampled > 0 && cleared / sampled >= 0.5) reveal();
   }
 
   function scratch(event) {
