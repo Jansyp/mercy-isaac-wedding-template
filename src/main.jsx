@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { createRoot } from "react-dom/client";
-import { Cake, CalendarDays, Navigation, Gift, Sparkles } from "lucide-react";
+import { Cake, Navigation, Gift, Sparkles } from "lucide-react";
 import invitationBackground from "./assets/vihaan-birthday-background.png";
 import storyPhoto from "./assets/vihaan-story-photo.png";
 import "./styles.css";
@@ -10,9 +10,7 @@ import "./styles.css";
 const BIRTHDAY = {
   name: "Vihaan Dev",
   parents: { dad: "Karthik", mom: "Jansy" },
-  dateLabel: "Sunday · December 6, 2026",
   dateShort: "06 · 12 · 2026",
-  dateEvent: "6 December 2026",
   countdownTarget: "2026-12-06T19:00:00+05:30",
   image: "", // Example: `${import.meta.env.BASE_URL}vihaan-birthday.jpg`
   events: [
@@ -26,7 +24,8 @@ const BIRTHDAY = {
     },
     {
       label: "A SPECIAL EVENING",
-      date: true,
+      dateLabel: "Sunday, 6 December 2026",
+      time: "7:00 PM",
       description: "Celebrating one wonderful year of Vihaan Dev",
       address: [],
       map: "",
@@ -364,11 +363,11 @@ function App() {
         <div className="small-caps">THE CELEBRATION</div>
         <h2>Come celebrate {firstName}'s first big milestone!</h2>
         <p className="section-lede">One year of giggles, cuddles, smiles and precious memories — let's make his first birthday unforgettable.</p>
-        <div className="date-line"><CalendarDays size={20}/>{BIRTHDAY.dateLabel}</div>
-        <div className="event-grid">{BIRTHDAY.events.map(({ label, time, date, venue, description, address, map, icon: Icon }) => {
+        <div className="event-grid">{BIRTHDAY.events.map(({ label, time, dateLabel, venue, description, address, map, icon: Icon }) => {
           return <article className="event-card" key={label}>
           <div className="event-icon"><Icon size={28}/></div><div className="small-caps">{label}</div>
-          <h3>{date ? BIRTHDAY.dateEvent : time}</h3>{venue && <h4>{venue}</h4>}
+          {dateLabel ? <h3 className="event-date">{dateLabel}</h3> : <h3>{time}</h3>}
+          {dateLabel && <h4 className="event-time">{time}</h4>}{venue && <h4>{venue}</h4>}
           {description ? <p>{description}</p> : <p>{address.map((line) => <React.Fragment key={line}>{line}<br/></React.Fragment>)}</p>}
           {map && <a className="map-btn" href={map} target="_blank" rel="noreferrer"><Navigation size={17}/> Get Directions</a>}
         </article>})}</div>
