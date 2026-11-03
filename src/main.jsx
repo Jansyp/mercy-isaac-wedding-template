@@ -2,6 +2,9 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { createRoot } from "react-dom/client";
 import { Cake, CalendarDays, Navigation, Gift, Sparkles } from "lucide-react";
+import invitationBackground from "./assets/vihaan-birthday-background.png";
+import eventBackground from "./assets/birthday-cake-panels.avif";
+import storyPhoto from "./assets/vihaan-story-photo.png";
 import "./styles.css";
 
 // Update birthday details, venues, map links and image paths here.
@@ -334,8 +337,8 @@ function App() {
 
   return <>
   <div className="site" style={{
-    "--invitation-photo": `url("${import.meta.env.BASE_URL}vihaan-birthday-background.png")`,
-    "--event-photo": `url("${import.meta.env.BASE_URL}birthday-cake-panels.png")`,
+    "--invitation-photo": `url("${invitationBackground}")`,
+    "--event-photo": `url("${eventBackground}")`,
   }}>
     <main>
       <section id="home" className="hero">
@@ -376,7 +379,7 @@ function App() {
       <section id="story" className="photo-story">
         <div className="story-image">
           <Sparkles className="story-sparkle" size={34} aria-hidden="true"/>
-          <img src={`${import.meta.env.BASE_URL}vihaan-story-photo.png`} alt={`${BIRTHDAY.name} enjoying a ride`} />
+          <img src={storyPhoto} alt={`${BIRTHDAY.name} enjoying a ride`} />
         </div>
         <div className="story-copy">
           <div className="small-caps">A LITTLE BOY, A BIG BLESSING</div>
