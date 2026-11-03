@@ -1,6 +1,6 @@
-# Geetha & Ram Wedding Invitation
+# Vihaan Dev • 1st Birthday
 
-A mobile-first React/Vite wedding invitation website.
+A responsive React/Vite first birthday invitation.
 
 ## Run locally
 
@@ -9,27 +9,15 @@ npm install
 npm run dev
 ```
 
-Then open the local Vite URL.
-
 ## Build for production
 
 ```bash
 npm run build
 ```
 
-The production files will be in `dist/`.
+## Customize the invitation
 
-## Customize
-
-Edit `src/main.jsx` to change:
-- Couple names
-- Wedding date/time
-- Venue addresses
-- Bible verse
-- Google Maps links
-- Story/family content
-
-Replace `public/invitation-reference.jpg` with the couple's preferred image(s).
+Edit the `BIRTHDAY` configuration at the top of `src/main.jsx` to update the birthday date formats, countdown target (include the local UTC offset), event details, Google Maps link, and photo path. Add the photo under `public/` and set `image` to its URL, for example `${import.meta.env.BASE_URL}vihaan-birthday.jpg`.
 
 ## Deploy
 
