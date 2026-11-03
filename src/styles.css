@@ -135,7 +135,7 @@ blockquote {
 .map-btn:hover { transform:translateY(-2px); box-shadow:0 12px 32px rgba(80,40,30,.13); }
 
 .section { padding:100px max(22px, 6vw); text-align:center; }
-.intro { background:radial-gradient(ellipse at center, rgba(255,249,237,.42), rgba(255,249,237,.12) 68%, transparent 100%); }
+.intro { margin-top:-72px; padding-top:32px; background:radial-gradient(ellipse at center, rgba(255,249,237,.42), rgba(255,249,237,.12) 68%, transparent 100%); }
 .section h2, .story-copy h2, .thankyou h2 {
   color:var(--wine); font:600 clamp(42px, 6vw, 68px)/.95 "Cormorant Garamond";
   margin:18px auto;
@@ -205,6 +205,7 @@ blockquote {
   .subtitle { font-size:21px; }
   .turning { font-size:34px; }
   .section { padding:72px 20px; }
+  .intro { margin-top:-64px; padding-top:24px; }
   .event-grid,.photo-story { grid-template-columns:1fr; }
   .photo-story { padding:40px 20px 80px; gap:25px; }
   .story-copy { padding:10px; }
